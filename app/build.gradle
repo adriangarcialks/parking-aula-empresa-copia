@@ -1,9 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'androidx.navigation.safeargs'
-
-plugins {
-  id "org.sonarqube" version "3.5.0.2730"
-}
+apply plugin: 'org.sonarqube'
 
 android {
     compileSdkVersion 31
